@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+</head>
+<body>
+  <div class="container">
+    <h1>Things to Do</h1>
+    <div class="row">
+
+      <div id="first-column" class = "col-md-4">
+        <h2>Add contact</h2>
+        <form id="task">
+          <div class="form-group">
+              <label for="new-task">Enter a Task you want to complete</label>
+              <input type="text" class="form-control" id="new-task">
+              <br>
+              <button class="btn btn-primary" type=submit id="submit-button">Submit</button>
+            </div>
+        </form>
+      </div>
+      <div id="second-column" class = "col-md-4">
+        <h2>Task List:</h2>
+        <div id="task-list">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
