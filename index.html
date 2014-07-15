@@ -13,20 +13,33 @@
     <div class="row">
 
       <div id="first-column" class = "col-md-4">
-        <h2>Add contact</h2>
+        <h2>Add List</h2>
         <form id="task">
           <div class="form-group">
-              <label for="new-task">Enter a Task you want to complete</label>
-              <input type="text" class="form-control" id="new-task">
+              <label for="new-list">Enter a List</label>
+              <input type="text" class="form-control" id="new-list">
               <br>
               <button class="btn btn-primary" type=submit id="submit-button">Submit</button>
             </div>
         </form>
       </div>
       <div id="second-column" class = "col-md-4">
-        <h2>Task List:</h2>
-        <div id="task-list">
+        <h2>List Types:</h2>
+        <div id="list-types">
         </div>
+      </div>
+      <div id="third-column" class = "col-md-4">
+        <h2 id="list-title"></h2>
+        <div id="list-items">
+        </div>
+        <form id="list-task">
+          <div class="form-group">
+              <label for="list-task">Enter a Task</label>
+              <input type="text" class="form-control" id="list-task">
+              <br>
+              <button class="btn btn-primary" type=submit id="submit-button">Add</button>
+            </div>
+        </form>
       </div>
     </div>
   </div>
